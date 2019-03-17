@@ -19,7 +19,7 @@ mv GeoLiteCity.dat GeoIPCity.dat
 echo "Downloading country IPV6"
 rm GeoIPv6.dat.gz
 rm GeoIPv6.dat
-wget hhttp://geolite.maxmind.com/download/geoip/database/GeoIPv6.dat.gz
+wget http://geolite.maxmind.com/download/geoip/database/GeoIPv6.dat.gz
 gunzip GeoIPv6.dat.gz
 
 echo "Downloading the City IPV6 DB"
